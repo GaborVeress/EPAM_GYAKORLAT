@@ -26,6 +26,7 @@ public class Main
         }
         //2. feladat
         System.out.println("2.feladat:");
-
+        String muvelet=input.nextLine();
+        SzamoloClass.Szamologep(muvelet);
     }
 }
