@@ -26,7 +26,39 @@ public class Main
         }
         //2. feladat
         System.out.println("2.feladat:");
+        System.out.println("Adj meg egy muveletet:");
         String muvelet=input.nextLine();
         SzamoloClass.Szamologep(muvelet);
+        //3.feladat
+        System.out.println("3.feladat:");
+        System.out.println("Adj meg 3 stringet:");
+        String [] új=new String [3];
+        for (int i=0;i<3;i++)
+        {
+            switch(i)
+            {
+                case 0:
+                {
+                    System.out.println("Első string:");
+                    új[i]=input.nextLine();
+                    break;
+
+                }
+                case 1:
+                {
+                    System.out.println("Masodik string:");
+                    új[i]=input.nextLine();
+                    break;
+                }
+                case 2:
+                {
+                    System.out.println("Harmadik string:");
+                    új[i]=input.nextLine();
+                    break;
+                }
+            }
+        }
+        StringVizsgaloClass újelem=new StringVizsgaloClass(új);
+        StringVizsgaloClass.vizsgalat(újelem);
     }
 }
