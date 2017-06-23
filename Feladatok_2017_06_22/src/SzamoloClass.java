@@ -18,6 +18,10 @@ public class SzamoloClass
         ArrayList<Integer> szamok=new ArrayList<Integer>();
         ArrayList<String> muveletijelek=new ArrayList<String>();
         int counter = 0;
+        if(a.length()==0)
+        {
+            System.out.println("Nem adtál meg semmit");
+        }
         for( int i=0; i<a.length(); i++ )
         {
             if( a.charAt(i) == '/'||a.charAt(i) == '*' || a.charAt(i) == '-' || a.charAt(i) == '+' )
@@ -39,33 +43,45 @@ public class SzamoloClass
         }
         for(int i=0;i<muveletijelek.size();i++)
         {
-            if(muveletijelek.get(i)=="/")
+            if(muveletijelek.get(i).equals("/")&& szamok.size()!=1)
             {
                 szamok.set(i,szamok.get(i)/szamok.get(i+1));
                 szamok.remove(i+1);
+                muveletijelek.remove(i);
+                i--;
             }
-            else if(muveletijelek.get(i)=="*")
+            else if(muveletijelek.get(i).equals("*")&& szamok.size()!=1)
             {
                 szamok.set(i,szamok.get(i)*szamok.get(i+1));
                 szamok.remove(i+1);
+                muveletijelek.remove(i);
+                i--;
             }
         }
-        for(int i=0;i<muveletijelek.size();i++)
+        for (int i=0;i<a.length();i++)
         {
-            if(muveletijelek.get(i)=="-")
+            if(szamok.size()==1)
+            {
+                break;
+            }
+            if(muveletijelek.get(i).equals("-")&& szamok.size()!=1)
             {
                 szamok.set(i,szamok.get(i)-szamok.get(i+1));
                 szamok.remove(i+1);
+                muveletijelek.remove(i);
+                i--;
             }
-            else if(muveletijelek.get(i)=="+")
+            else if(muveletijelek.get(i).equals("+")&&szamok.size()!=1)
             {
                 szamok.set(i,szamok.get(i)+szamok.get(i+1));
                 szamok.remove(i+1);
+                muveletijelek.remove(i);
+                i--;
             }
         }
         if (Character.isDigit(a.toCharArray()[0]))
         {
-            System.out.println(szamok.get(0));
+            System.out.println("Az eredmény: "+szamok.get(0));
         }
     }
 }
