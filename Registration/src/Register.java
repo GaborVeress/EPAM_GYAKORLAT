@@ -1,4 +1,4 @@
-import jdk.jfr.events.ExceptionThrownEvent;
+import java.util.Scanner;
 
 /**
  * Created by Student on 6/26/2017.
@@ -22,14 +22,8 @@ public class Register
             error=true;
             name="";
         }
-        int counter = 0;
-        for( int i=0; i<a[1].length(); i++ ) {
-            if( a[1].charAt(i) == ',' ) {
-                counter++;
-            }
-        }
         cím=new Address(a[1]);
-        if(a[2].contains("@") && a[1].contains(".") && !error)
+        if(a[2].contains("@") && a[2].contains("."))
         {
             email=a[2];
         }
@@ -38,14 +32,14 @@ public class Register
             email="";
             System.out.println("A megadott e-mail nem megfelelő! Próbáld újra.");
         }
-        if(a[3].equals(a[4])&& a[3]!="")
+        if(a[3].equals(a[4])&& a[3]!="" && a[3].split("[a-zA-Z0-9 ]").length>1 && a[3].matches(".*\\d+.*"))
         {
             pass=a[3];
         }
         else
         {
             pass="";
-            System.out.println("A megadott jelszók nem egyeznek meg! Próbáld újra.");
+            System.out.println("A megadott jelszó nem megfelelő! Próbáld újra.");
         }
         try
         {
@@ -106,5 +100,14 @@ public class Register
     public void setCím(Address cím)
     {
         this.cím = cím;
+    }
+    public static int Choose(int aktualis, Scanner input)
+    {
+        System.out.println("Funkciók: 1-hozzáadás");
+        System.out.println("          2-törlés");
+        System.out.println("          3-adat felülírása");
+        System.out.println("          0-kilépés");
+        aktualis=Integer.parseInt(input.nextLine());
+        return aktualis;
     }
 }

@@ -18,7 +18,7 @@ public class Address implements Validate
         }
         if(s!="")
         {
-            telepules = s.split("[,]")[1].split(" ")[0].split("[ ]")[1];
+            telepules = s.split("[,]")[0].split("[ ]")[1];
             utca += s.split("[,]")[1];
         }
     }
