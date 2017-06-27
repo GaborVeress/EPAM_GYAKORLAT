@@ -21,7 +21,7 @@ public class Main
             String[] aktualis = new String[6];
             System.out.println("Add meg a nevet!");
             aktualis[0] = input.nextLine();
-            System.out.println("Add meg a címet!");
+            System.out.println("Add meg a címet!(Pl: 4000 Randomtelepules, Random utca 2");
             aktualis[1] = input.nextLine();
             System.out.println("Add meg az e-mail címet!");
             aktualis[2] = input.nextLine();
@@ -33,10 +33,11 @@ public class Main
             aktualis[5] = input.nextLine();
             Register newuser = new Register(aktualis);
             boolean error = false;
-            if (newuser.getName().equals("") || newuser.getAge() == 0 || newuser.getEmail().equals("") || newuser.getPass().equals("")|| newuser.getCím().equals(""))
+            if (newuser.getName().equals("") || newuser.getAge() == 0 || newuser.getEmail().equals("") || newuser.getPass().equals("")|| !newuser.getCím().Validator(newuser.getCím()))
             {
                 error = true;
             }
+
             if (!error)
             {
                 users.add(newuser);
@@ -47,6 +48,11 @@ public class Main
             if ("y".equals(kilepes))
             {
              quit=true;
+            }
+            else if (!"n".equals(kilepes))
+            {
+                System.out.println("Kilépés");
+                quit=true;
             }
         }
     }

@@ -5,7 +5,8 @@ import jdk.jfr.events.ExceptionThrownEvent;
  */
 public class Register
 {
-    private String name,email,pass,cím;
+    private String name,email,pass;
+    private Address cím;
     private int age;
 
     public Register(String [] a)
@@ -27,15 +28,7 @@ public class Register
                 counter++;
             }
         }
-        if(counter==4)
-        {
-            cím=a[1];
-        }
-        else
-        {
-            cím="";
-            System.out.println("A megadott cím nem megfelelő! Próbáld újra!");
-        }
+        cím=new Address(a[1]);
         if(a[2].contains("@") && a[1].contains(".") && !error)
         {
             email=a[2];
@@ -105,12 +98,12 @@ public class Register
         this.age = age;
     }
 
-    public String getCím()
+    public Address getCím()
     {
         return cím;
     }
 
-    public void setCím(String cím)
+    public void setCím(Address cím)
     {
         this.cím = cím;
     }
