@@ -6,7 +6,6 @@ package menza;
 public class Ital extends Termek
 {
     private boolean alcoholic;
-    public static int alcoholicd,nonalcoholic;
 
     public Ital(String a, String b, int c,String s)
     {
@@ -14,17 +13,16 @@ public class Ital extends Termek
         if("alkoholos".equals(s))
         {
             alcoholic=true;
-            alcoholicd++;
         }
         else if("mentes".equals(s))
         {
             alcoholic=false;
-            nonalcoholic++;
         }
-        else
-        {
-            System.out.println("???");
-        }
+    }
+
+    public boolean isAlcoholic()
+    {
+        return alcoholic;
     }
 }
 

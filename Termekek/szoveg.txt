@@ -1,0 +1,3 @@
+étel;Bécsi szelet/adag/550/főétel
+étel;Húsleves/tál/450/főétel
+ital;buborékos ásványvíz/0,5 l/80/mentes

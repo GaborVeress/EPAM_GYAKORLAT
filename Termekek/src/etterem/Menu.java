@@ -37,55 +37,90 @@ public class Menu implements Etlap
     @Override
     public void töröl(Termek termék) throws NincsIlyenTermékException
     {
+        int torolt=0;
         for (int i=0;i<termekek.size();i++)
         {
             if (termekek.get(i).compareTo(termék)==0)
             {
                 termekek.remove(i);
+                torolt++;
             }
         }
+        if (torolt==0)
+        {
+            throw new NincsIlyenTermékException();
+        }
+
     }
     @Override
     public String toString()
     {
-        return "Menu{" +
-                "datum=\'" + datum + '\'' +
-                ", termekszam=" + termekszam +
-                ", termekek=" + termekek +
-                '}';
+        return datum;
     }
     @Override
     public int termékekSzáma(int fajta)
     {
-        int vissza=0;
-        switch (fajta)
-        {
-            case 1:
-            {
-                vissza= Etel.leves;
+        int db = 0;
+        switch (fajta) {
+            case 1: {
+                for (Termek item: termekek)
+                {
+                    if (item instanceof Etel) {
+                        Etel e= (Etel) item;
+                        if(e.isSoup())
+                        {
+                            db++;
+                        }
+                    }
+                }
                 break;
             }
-            case 2:
-            {
-                vissza=Etel.foetel;
+            case 2: {
+                for (Termek item: termekek)
+                {
+                    if (item instanceof Etel) {
+                        Etel e= (Etel) item;
+                        if(!e.isSoup())
+                        {
+                            db++;
+                        }
+                    }
+                }
                 break;
             }
-            case 3:
-            {
-                vissza=Ital.alcoholicd;
+            case 3: {
+                for (Termek item: termekek)
+                {
+                    if (item instanceof Ital) {
+                        Ital e= (Ital) item;
+                        if(e.isAlcoholic())
+                        {
+                            db++;
+                        }
+                    }
+                }
                 break;
             }
             case 4:
             {
-                vissza=Ital.nonalcoholic;
+                for (Termek item: termekek)
+                {
+                    if (item instanceof Ital) {
+                        Ital e= (Ital) item;
+                        if(!e.isAlcoholic())
+                        {
+                            db++;
+                        }
+                    }
+                }
                 break;
             }
-            default:
-            {
-                throw  new IllegalArgumentException();
+
+            default: {
+                throw new IllegalArgumentException();
             }
         }
-        return vissza;
+        return db;
     }
     @Override
     public void kiír(String fájlnév)
@@ -93,13 +128,14 @@ public class Menu implements Etlap
         try
         {
             BufferedWriter writer = new BufferedWriter((new FileWriter(fájlnév)));
-            writer.write(termekek.toString());
+            writer.write(this.toString());
             writer.newLine();
             for (Termek item : termekek)
             {
-                writer.write(item.getNev() + ", " + item.getMennyisegiegyseg() + ", " + item.getEgysegar() + " Ft");
+                writer.write(item.toString());
                 writer.newLine();
             }
+            writer.close();
         }
         catch (IOException e)
         {
