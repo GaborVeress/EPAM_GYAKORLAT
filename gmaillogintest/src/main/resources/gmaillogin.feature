@@ -20,3 +20,21 @@ Feature: Login
     When the user enters a valid username
     And the user enters an valid password
     Then the user should be on the home page
+
+  Scenario: Navigate to calendar
+    Given the user is on the gmail login page
+    When the user enters a valid username
+    And the user enters an valid password
+    Then click on the apps button and then navigate to the calendar page
+
+  Scenario: Navigate to calendar3
+    Given the user is on the gmail login page
+    When the user enters a valid username
+    And the user enters an valid password
+    Then click on the apps button and then navigate to the youtube page
+
+  Scenario: Navigate to calendar5
+    Given the user is on the gmail login page
+    When the user enters a valid username
+    And the user enters an valid password
+    Then click on the gmail button and then navigate to the tasks

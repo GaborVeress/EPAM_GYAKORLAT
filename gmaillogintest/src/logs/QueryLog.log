@@ -1,0 +1,206 @@
+INFO	2017-07-14 09:12:58,176	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 09:13:01,142	2966	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 09:13:01,441	3265	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 09:13:01,514	3338	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 09:13:01,515	3339	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 09:13:09,825	11649	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 09:13:12,930	14754	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 09:13:13,531	15355	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+INFO	2017-07-14 09:13:13,583	15407	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 09:13:13,584	15408	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 09:13:21,874	23698	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 09:13:24,662	26486	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 09:13:25,142	26966	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 09:13:26,268	28092	StepDefinition.StepDefinition	[main]	Trying with nonexisting password.
+INFO	2017-07-14 09:13:31,642	33466	StepDefinition.StepDefinition	[main]	The Wrong password. Try again. error message successfully written on the screen.
+INFO	2017-07-14 09:13:31,642	33466	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 09:13:40,154	41978	StepDefinition.StepDefinition	[main]	Starting 4. Scenario.
+INFO	2017-07-14 09:13:43,208	45032	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 09:13:43,619	45443	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 09:13:44,702	46526	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 09:13:49,473	51297	StepDefinition.StepDefinition	[main]	The user is on the Home Page.
+INFO	2017-07-14 09:13:49,473	51297	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 11:44:06,910	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 11:44:09,605	2695	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:44:09,901	2991	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 11:44:09,976	3066	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 11:44:17,888	10978	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 11:44:20,609	13699	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:44:21,082	14172	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+INFO	2017-07-14 11:44:21,146	14236	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 11:44:29,005	22095	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 11:44:31,917	25007	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:44:32,333	25423	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 11:44:33,453	26543	StepDefinition.StepDefinition	[main]	Trying with nonexisting password.
+INFO	2017-07-14 11:44:38,800	31890	StepDefinition.StepDefinition	[main]	The Wrong password. Try again. error message successfully written on the screen.
+INFO	2017-07-14 11:44:48,035	41125	StepDefinition.StepDefinition	[main]	Starting 4. Scenario.
+INFO	2017-07-14 11:44:51,047	44137	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:44:51,708	44798	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 11:44:52,789	45879	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 11:44:56,635	49725	StepDefinition.StepDefinition	[main]	The user is on the Home Page.
+INFO	2017-07-14 11:44:57,586	50676	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 11:45:05,858	58948	StepDefinition.StepDefinition	[main]	Starting 5. Scenario.
+INFO	2017-07-14 11:45:08,763	61853	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:45:09,373	62463	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 11:45:10,440	63530	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 11:45:17,777	70867	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 11:45:26,262	79352	StepDefinition.StepDefinition	[main]	Starting 6. Scenario.
+INFO	2017-07-14 11:45:29,025	82115	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:45:29,601	82691	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 11:45:30,669	83759	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 11:45:37,607	90697	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 11:45:45,839	98929	StepDefinition.StepDefinition	[main]	Starting 7. Scenario.
+INFO	2017-07-14 11:49:49,712	342802	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 11:49:50,152	343242	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 11:49:51,230	344320	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 11:50:01,760	354850	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:03:09,394	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 12:03:11,986	2592	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 12:03:12,289	2895	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 12:03:12,397	3003	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 12:03:12,397	3003	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:03:20,522	11128	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 12:03:23,777	14383	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 12:03:24,324	14930	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+INFO	2017-07-14 12:03:24,382	14988	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 12:03:24,383	14989	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:03:32,694	23300	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 12:03:35,458	26064	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 12:03:36,061	26667	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 12:03:37,185	27791	StepDefinition.StepDefinition	[main]	Trying with nonexisting password.
+INFO	2017-07-14 12:03:42,540	33146	StepDefinition.StepDefinition	[main]	The Wrong password. Try again. error message successfully written on the screen.
+INFO	2017-07-14 12:03:42,540	33146	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:03:50,619	41225	StepDefinition.StepDefinition	[main]	Starting 4. Scenario.
+INFO	2017-07-14 12:03:53,220	43826	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 12:03:53,677	44283	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 12:03:54,754	45360	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 12:03:58,140	48746	StepDefinition.StepDefinition	[main]	The user is on the Home Page.
+INFO	2017-07-14 12:03:58,140	48746	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:04:06,777	57383	StepDefinition.StepDefinition	[main]	Starting 5. Scenario.
+INFO	2017-07-14 12:04:10,078	60684	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 12:04:10,656	61262	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 12:04:11,735	62341	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 12:04:17,696	68302	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:04:26,094	76700	StepDefinition.StepDefinition	[main]	Starting 6. Scenario.
+INFO	2017-07-14 12:04:28,877	79483	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 12:04:29,542	80148	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 12:04:30,634	81240	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 12:04:36,795	87401	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 12:04:45,149	95755	StepDefinition.StepDefinition	[main]	Starting 7. Scenario.
+INFO	2017-07-14 12:05:08,520	119126	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:03:11,089	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 13:03:15,815	4726	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:03:16,115	5026	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 13:03:16,188	5099	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 13:03:16,188	5099	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:03:24,060	12971	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 13:03:27,743	16654	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:03:28,246	17157	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+INFO	2017-07-14 13:03:28,312	17223	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 13:03:28,313	17224	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:03:36,735	25646	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 13:03:41,109	30020	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:03:41,509	30420	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:03:42,631	31542	StepDefinition.StepDefinition	[main]	Trying with nonexisting password.
+INFO	2017-07-14 13:03:47,974	36885	StepDefinition.StepDefinition	[main]	The Wrong password. Try again. error message successfully written on the screen.
+INFO	2017-07-14 13:03:47,975	36886	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:03:56,275	45186	StepDefinition.StepDefinition	[main]	Starting 4. Scenario.
+INFO	2017-07-14 13:04:00,480	49391	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:04:00,959	49870	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:04:02,052	50963	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:04:05,645	54556	StepDefinition.StepDefinition	[main]	The user is on the Home Page.
+INFO	2017-07-14 13:04:05,645	54556	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:04:14,322	63233	StepDefinition.StepDefinition	[main]	Starting 5. Scenario.
+INFO	2017-07-14 13:04:17,490	66401	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:04:18,082	66993	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:04:19,168	68079	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:04:25,248	74159	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:04:33,989	82900	StepDefinition.StepDefinition	[main]	Starting 6. Scenario.
+INFO	2017-07-14 13:04:37,442	86353	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:04:38,053	86964	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:04:39,148	88059	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:04:45,110	94021	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:04:53,618	102529	StepDefinition.StepDefinition	[main]	Starting 7. Scenario.
+INFO	2017-07-14 13:04:57,475	106386	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:04:58,065	106976	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:04:59,146	108057	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:05:09,032	117943	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:40:56,725	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 13:41:01,717	4992	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:41:02,017	5292	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 13:41:02,099	5374	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 13:41:02,099	5374	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:41:10,208	13483	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 13:41:15,490	18765	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:41:15,953	19228	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+ERROR	2017-07-14 13:41:16,387	19662	StepDefinition.StepDefinition	[main]	There is no Couldn't find your Google Account error message.
+INFO	2017-07-14 13:41:16,387	19662	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 13:41:16,387	19662	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:41:24,548	27823	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 13:41:27,528	30803	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:41:27,951	31226	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:41:29,070	32345	StepDefinition.StepDefinition	[main]	Trying with nonexisting password.
+INFO	2017-07-14 13:41:34,409	37684	StepDefinition.StepDefinition	[main]	The Wrong password. Try again. error message successfully written on the screen.
+INFO	2017-07-14 13:41:34,409	37684	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:41:42,536	45811	StepDefinition.StepDefinition	[main]	Starting 4. Scenario.
+INFO	2017-07-14 13:41:46,000	49275	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:41:46,466	49741	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:41:47,553	50828	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:41:51,305	54580	StepDefinition.StepDefinition	[main]	The user is on the Home Page.
+INFO	2017-07-14 13:41:51,305	54580	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:41:59,334	62609	StepDefinition.StepDefinition	[main]	Starting 5. Scenario.
+INFO	2017-07-14 13:42:03,247	66522	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:42:03,649	66924	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:42:04,736	68011	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:42:10,571	73846	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:42:18,827	82102	StepDefinition.StepDefinition	[main]	Starting 6. Scenario.
+INFO	2017-07-14 13:42:22,582	85857	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:42:23,002	86277	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:42:24,093	87368	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:42:30,028	93303	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:42:38,501	101776	StepDefinition.StepDefinition	[main]	Starting 7. Scenario.
+INFO	2017-07-14 13:42:43,445	106720	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:42:43,900	107175	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:42:44,986	108261	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:42:55,388	118663	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:50:12,093	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 13:50:16,836	4743	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:50:17,284	5191	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:50:18,378	6285	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:50:25,006	12913	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 13:58:11,352	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 13:58:14,979	3627	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 13:58:15,437	4085	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 13:58:16,516	5164	StepDefinition.StepDefinition	[main]	Entering existing password.
+INFO	2017-07-14 13:58:20,408	9056	StepDefinition.StepDefinition	[main]	The user is on the Home Page.
+INFO	2017-07-14 13:58:20,408	9056	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 15:49:28,707	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 15:49:32,083	3376	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 15:49:32,399	3692	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 15:49:32,485	3778	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 15:49:32,486	3779	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 15:49:40,807	12100	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 15:49:44,502	15795	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 15:49:44,996	16289	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+INFO	2017-07-14 15:49:45,057	16350	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 15:49:45,058	16351	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 15:49:53,202	24495	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 15:49:57,211	28504	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 15:49:58,308	29601	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 15:50:01,375	32668	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 15:55:06,427	0	StepDefinition.StepDefinition	[main]	Starting 1. Scenario.
+INFO	2017-07-14 15:55:09,737	3310	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 15:55:10,041	3614	StepDefinition.StepDefinition	[main]	Trying to login without username/e-mail
+INFO	2017-07-14 15:55:10,115	3688	StepDefinition.StepDefinition	[main]	The enter an email or phone number error message is successfully written on the screen.
+INFO	2017-07-14 15:55:10,115	3688	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 15:55:18,539	12112	StepDefinition.StepDefinition	[main]	Starting 2. Scenario.
+INFO	2017-07-14 15:55:22,906	16479	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 15:55:23,475	17048	StepDefinition.StepDefinition	[main]	Trying to login with nonexisting username/e-mail.
+INFO	2017-07-14 15:55:23,567	17140	StepDefinition.StepDefinition	[main]	The Couldn't find your Google Account error message successfully written on the screen.
+INFO	2017-07-14 15:55:23,568	17141	StepDefinition.StepDefinition	[main]	The program quits.
+INFO	2017-07-14 15:55:31,758	25331	StepDefinition.StepDefinition	[main]	Starting 3. Scenario.
+INFO	2017-07-14 15:55:35,396	28969	StepDefinition.StepDefinition	[main]	Clicking in login button
+INFO	2017-07-14 15:55:35,842	29415	StepDefinition.StepDefinition	[main]	Trying with existing username.
+INFO	2017-07-14 15:55:36,960	30533	StepDefinition.StepDefinition	[main]	Trying with nonexisting password.
+INFO	2017-07-14 15:55:42,324	35897	StepDefinition.StepDefinition	[main]	The Wrong password. Try again. error message successfully written on the screen.
+INFO	2017-07-14 15:55:42,325	35898	StepDefinition.StepDefinition	[main]	The program quits.

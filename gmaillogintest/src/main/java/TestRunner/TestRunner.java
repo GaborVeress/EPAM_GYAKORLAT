@@ -1,8 +1,12 @@
 package TestRunner;
 
+
+import GetPropertyValues.GetPropertyValue;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
+
+import java.io.IOException;
 
 /**
  * Created by Gabor_Veress on 7/13/2017.
